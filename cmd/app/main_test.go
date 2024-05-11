@@ -41,3 +41,9 @@ func (t *TestSuite) TestTC5() {
 	actual := howManyChickenAreRescue(constant.TC5)
 	t.Equal(expect, actual)
 }
+
+func (t *TestSuite) TestTC6() {
+	expect := 11
+	actual := howManyChickenAreRescue(constant.TC6)
+	t.Equal(expect, actual)
+}
